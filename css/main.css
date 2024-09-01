@@ -1,0 +1,259 @@
+.qutti {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width:1400px) {
+    .qutti {
+        max-width: 1235px;
+        margin: 0 auto;
+    }
+}
+
+body {
+    background: #F6E9DFA6;
+}
+
+.qutti {
+    background-color: #FFF6EF;
+    padding: 30px;
+}
+
+
+
+.cards2 {
+    width: 310px;
+    height: 446px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-heding {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72.78px;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+}
+
+.about .qutti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+.about-but {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 250px;
+    height: 75px;
+    border-radius: 60px 0px 60px 0px;
+    background: #FFBB8A;
+    border: none;
+}
+
+.about-but:hover {
+    border: 2px dashed red;
+}
+
+.btn-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.test {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72.78px;
+    text-align: left;
+}
+
+.faq {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72.78px;
+    text-align: left;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: hsl(26, 60%, 72%);
+    padding: 10px;
+}
+
+.cards3 {
+    width: 100%;
+}
+
+.cards3-heding {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+
+}
+
+.cards3-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+
+}
+
+.btn {
+    width: 136px;
+    height: 57px;
+    background-color: #E4ECF9;
+    border: none;
+    border-radius: 20px;
+    color: red;
+    font-weight: 400;
+    line-height: 37px;
+    font-size: 15px !important;
+}
+
+.btn:hover {
+    font-weight: bold;
+    font-style: italic;
+    border: 2px dashed red;
+    color: #fff;
+    background-color: orange;
+    transition: 0.7s linear;
+}
+
+@media (max-width:970px) {
+    .cards3-heding {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .cards3-text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width:840px) {
+    .cards3-heding {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .cards3-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width:750px) {
+    .swiper-slide {
+        flex-direction: column;
+    }
+
+    .cards2 {
+        width: 100%;
+    }
+
+    .cards3-heding {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .btn-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cards3-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width:560px) {
+    .swiper-slide {
+        gap: 0;
+    }
+
+    .test{
+        font-size: 50px;
+    }
+
+    .cards2 {
+        background: none;
+        border: none;
+        margin-top: -100px;
+    }
+
+    .cards3 {
+        margin-top: -130px;
+    }
+
+    .cards3-heding {
+        text-align: center;
+    }
+
+    .btn-cards {
+        display: none;
+    }
+
+    .cards3-text {
+        text-align: center;
+    }
+}
+
+@media (max-width:460px) {
+    .cards3-heding {
+        font-size: 16px;
+        line-height: 20px;
+        font-style: italic;
+    }
+
+    .cards3-text {
+        font-size: 12px;
+        line-height: 15px;
+        font-style: italic;
+    }
+    .test{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:320px) {
+    .swiper-slide {
+        padding: 0;
+    }
+
+    .cards3-heding {
+        font-size: 14px;
+        line-height: 20px;
+        font-style: italic;
+    }
+
+    .cards3-text {
+        font-size: 11px;
+        line-height: 15px;
+    }
+}
